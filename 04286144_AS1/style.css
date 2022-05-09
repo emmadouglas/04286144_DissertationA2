@@ -1,0 +1,163 @@
+body {
+  background-color: #efd9d1;
+  font-family: Georgia, serif;
+}
+
+.header-img {
+  min-width: 1200px;
+  width: 1100px;
+  margin: 0px auto;
+  
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.signup-form
+{
+  padding: 12px;
+  width: 500px;
+  margin: 16px auto;
+  font-size: 16px;
+  box-sizing: border-box;
+
+}
+/*Header with Welcome Age on each page, used on each page*/
+.h1 {
+  display: list-item;
+  width: 100%;
+  height: 500px;
+  background-image: url(images/welcome.webp);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.body {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+.clearfix:after,
+.clearfix:before {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+  display: block;
+}
+
+.bigcontainer {
+  margin-top: 220px;
+  text-align: center;
+  color: #ddb7ab;
+  font-family: poppins;
+  font-size: 30px;
+}
+.header {
+  box-shadow: 10px 10px 10px rgb(100 100 100);
+  z-index: 9999;
+  position: fixed;
+  margin-top: 0;
+  padding-top: 0;
+  top: 0;
+  place-items: center;
+  width: 100%;
+  display: flex;
+  background-color: #ddb7ab;
+}
+
+.header h1 {
+  margin-right: 140px;
+  font-family: "dongle";
+  font-size: 50px;
+}
+.header button {
+  height: 150px;
+  margin: 0;
+  width: 90px;
+  background-color: #ddb7ab;
+  border: 0;
+  font-family: "montserrat";
+  box-shadow: inset 0 0 0 0 rgb(240 240 256);
+  transition: 0.4s ease-out;
+}
+.header button:hover {
+  box-shadow: inset 0 90px 90px 0 rgb(240 240 256);
+}
+
+.button {
+  position: relative;
+  background-color: #DDB7AB;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+signup-form {
+    padding:inherit;
+    font:"Trebuchet MS", sans-serif;
+}
+
+a.one:link {color:#999B84;}
+a.one:visited {color:#999B84;}
+a.one:hover {color:#DDB7AB;}
+
+.footer {
+  text-align: left;
+  font-family: "Trebuchet MS", sans-serif;
+  background-color: #ddb7ab;
+  height: 100px;
+  width: 1000px;
+}
+
+.footer a {
+  color: #000000;
+}
